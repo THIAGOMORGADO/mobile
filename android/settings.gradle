@@ -44,7 +44,7 @@ if (getRNMinorVersion() >= 75) {
   }
 }
 
-rootProject.name = 'mobile'
+rootProject.name = 'Agendei'
 
 dependencyResolutionManagement {
   versionCatalogs {
