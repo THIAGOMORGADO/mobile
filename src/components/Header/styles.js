@@ -1,4 +1,7 @@
-export const style = {
+export const styles = {
   container: {},
-  img: {},
+  img: {
+    width: 100,
+    height: 23,
+  },
 }

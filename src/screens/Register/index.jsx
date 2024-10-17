@@ -8,7 +8,7 @@ import Button from '../../components/Button';
 import { Feather } from '@expo/vector-icons'
 import { COLORS, FONT_SIZE } from '../../constants/theme';
 
-export default function Signin() {
+export default function Register() {
   const name = 'thiago morgado'
 
   function handleSignIn() { }
@@ -22,6 +22,11 @@ export default function Signin() {
 
         <View style={styles.inputArea}>
           <Feather name="user" size={FONT_SIZE.md} color={COLORS.gray3} />
+          <TextInput placeholder="name" style={styles.input} color={COLORS.gray3} />
+        </View>
+
+        <View style={styles.inputArea}>
+          <Feather name="mail" size={FONT_SIZE.md} color={COLORS.gray3} />
           <TextInput placeholder="Email" style={styles.input} color={COLORS.gray3} />
         </View>
 
@@ -34,9 +39,9 @@ export default function Signin() {
       </View>
 
       <View style={styles.footerArea}>
-        <Text>Nao tem conta</Text>
+        <Text>Ja tem conta.</Text>
         <TouchableOpacity>
-          <Text style={styles.footerLink}>Crie conta agora</Text>
+          <Text style={styles.footerLink}>Fazer Login</Text>
         </TouchableOpacity>
       </View>
 

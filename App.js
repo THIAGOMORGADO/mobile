@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from 'react-native';
 import Loading from './src/components/loading';
 import { useEffect, useState } from 'react';
 import Signin from './src/screens/Signin';
+import Register from './src/screens/Register';
 
 export default function App() {
   const [loading, setLoading] = useState(true);
@@ -16,7 +17,7 @@ export default function App() {
     <>
       <StatusBar hidden />
 
-      {loading ? <Loading /> : <Signin />}
+      {loading ? <Loading /> : <Register />}
     </>
 
   );
