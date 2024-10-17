@@ -15,7 +15,7 @@ export default function App() {
 
   return (
     <>
-      <StatusBar hidden />
+      <StatusBar hidden translucent />
 
       {loading ? <Loading /> : <Register />}
     </>
