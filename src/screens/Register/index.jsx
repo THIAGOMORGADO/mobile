@@ -36,6 +36,8 @@ export default function Register() {
             <TextInput placeholder="Senha" style={styles.input} secureTextEntry />
           </View>
 
+          {/* Criar a parte do bulet do LGPD */}
+
           <Button title="Criar Conta" click={handleNewAccounts} />
         </KeyboardAvoidingView>
 
