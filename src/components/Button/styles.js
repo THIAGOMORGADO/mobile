@@ -3,9 +3,15 @@ import { COLORS, FONT_SIZE } from "../../constants/theme";
 export const styles = {
   btnContainer: {
     width: "100%",
-    backgroundColor: COLORS.blue,
+
     borderRadius: 6,
     padding: 12,
+  },
+  primary: {
+    backgroundColor: COLORS.blue,
+  },
+  danger: {
+    backgroundColor: COLORS.red,
   },
   btnText: {
     textAlign: "center",

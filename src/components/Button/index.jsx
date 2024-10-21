@@ -17,7 +17,7 @@ export default function Button(props) {
   };
   return (
     <TouchableOpacity
-      style={styles.btnContainer}
+      style={[styles.btnContainer, props.theme == 'danger' ? styles.danger : styles.primary]}
       onPress={handlePress}
       disabled={reqLoading}  // Desabilita o botão enquanto reqLoading for true
     >
