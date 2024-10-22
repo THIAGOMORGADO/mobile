@@ -16,7 +16,6 @@ export const styles = {
   btnText: {
     textAlign: "center",
     color: COLORS.white,
-    fontWeight: "bold",
     fontSize: FONT_SIZE.md
   },
 }

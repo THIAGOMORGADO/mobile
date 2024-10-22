@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 import Home from './src/screens/Tab/Home';
 import Main from './src/screens/Main';
+import Services from './src/screens/Services';
 
 
 
@@ -19,7 +20,7 @@ export default function App() {
     <>
       <StatusBar hidden translucent />
 
-      {loading ? <Loading /> : <Main />}
+      {loading ? <Loading /> : <Services />}
     </>
 
   );
